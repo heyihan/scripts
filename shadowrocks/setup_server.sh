@@ -5,6 +5,13 @@ yum update
 yum install shadowrocks-libev
 
 # configure
-vim /etc/shadowrocks-libev/config.json
+mkdir ~/shadowrocks
+cd ~/shadowrocks
+cp /etc/shadowrocks-libev/config.json .
+vim config.json
 
+vim /etc/supervisord.conf
+
+#start
+supervisorctl start shadowrocks
 
