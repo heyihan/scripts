@@ -6,3 +6,8 @@ mv sample.conf /etc/supervisord.conf
 
 #run
 supervisord
+
+#operate
+supervisorctl status
+supervisorctl stop all
+supervisorctl start all
