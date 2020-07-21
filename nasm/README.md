@@ -1,0 +1,2 @@
+- wget https://www.nasm.us/nasm.repo
+- cp nasm.repo /etc/yum.repos.d/
